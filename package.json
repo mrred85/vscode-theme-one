@@ -1,0 +1,24 @@
+{
+	"name": "theme-one",
+	"displayName": "One Themes",
+	"description": "Themes for VSCode",
+	"categories": [ "Themes" ],
+	"version": "1.0.0",
+	"publisher": "vscode",
+	"engines": { "vscode": "*" },
+	"icon": "icon.svg",
+	"contributes": {
+		"themes": [
+			{
+				"label": "One Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/one-dark.json"
+			},
+			{
+				"label": "One Light",
+				"uiTheme": "vs",
+				"path": "./themes/one-light.json"
+			}
+		]
+	}
+}
