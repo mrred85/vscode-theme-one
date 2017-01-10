@@ -6,11 +6,14 @@ Port of One Dark and One Light themes for VS Code.
 - HTML
 - Apache
 - PHP
+- Python
+- Java
 - JavaScript
 - TypeScript
 - CSS / SCSS
 - SQL
 - XML
+- Markdown
 - and so on
 
 ### How to install

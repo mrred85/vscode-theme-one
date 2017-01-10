@@ -238,37 +238,21 @@
 			}
 		},
 		{
-			"scope": "storage",
+			"scope": [
+				"storage",
+				"storage.type",
+				"storage.modifier"
+			],
 			"settings": {
 				"foreground": "#c678dd"
 			}
 		},
 		{
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#c678dd"
-			}
-		},
-		{
-			"scope": "storage.modifier",
-			"settings": {
-				"foreground": "#c678dd"
-			}
-		},
-		{
-			"scope": "string",
-			"settings": {
-				"foreground": "#98c379"
-			}
-		},
-		{
-			"scope": "string.tag",
-			"settings": {
-				"foreground": "#98c379"
-			}
-		},
-		{
-			"scope": "string.value",
+			"scope": [
+				"string",
+				"string.tag",
+				"string.value"
+			],
 			"settings": {
 				"foreground": "#98c379"
 			}
@@ -358,9 +342,19 @@
 		},
 		{
 			"name": "coloring of the Java import and package identifiers",
-			"scope": ["storage.modifier.import.java", "storage.modifier.package.java"],
+			"scope": [
+				"storage.modifier.import.java",
+				"storage.modifier.package.java"
+			],
 			"settings": {
 				"foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "coloring of the Java function",
+			"scope": "java.class.entity.name.function",
+			"settings": {
+				"foreground": "#61afef"
 			}
 		},
 		{
@@ -497,16 +491,26 @@
 		{
 			"name": "CSS property value",
 			"scope": [
-				"constant.other.color.hex-value.css",
-				"constant.other.color.rgb-value.css",
-				"constant.numeric.css",
+				"meta.css.constant.other.color.hex-value",
+				"meta.css.constant.other.color.rgb-value",
 
-				"constant.numeric.html.css",
-
-				"constant.numeric.scss"
+				"meta.scss.constant.numeric.color.hex-value"
 			],
 			"settings": {
 				"foreground": "#56b6c2"
+			}
+		},
+		{
+			"scope": [
+				"meta.css.string",
+				"meta.css.string.quoted",
+				"meta.html.css.string",
+				"meta.html.css.string.quoted",
+				"meta.html.scss.string",
+				"meta.html.scss.string.quoted"
+			],
+			"settings": {
+				"foreground": "#98c379"
 			}
 		}
 	]
