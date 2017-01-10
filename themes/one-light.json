@@ -462,12 +462,10 @@
 			"scope": [
 				"meta.property-value.css support",
 				"meta.property-value.html.css",
-				"meta.property-value.css support.function",
-				"constant.other.definition.color.rgb-value.css",
+				"meta.css.constant.other.color.rgb-value.definition",
 				
-				"meta.property-value.scss support.function",
-				"constant.numeric.definition.color.hex-value.scss",
-				"meta.property-value.scss support"
+				"meta.property-value.scss support",
+				"meta.scss.constant.numeric.color.hex-value.definition"
 			],
 			"settings": {
 				"foreground": "#986801"
