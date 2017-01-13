@@ -90,7 +90,7 @@
 				"entity.other.attribute-name.parent-selector.css",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				
+
 				"entity.other.attribute-name.attribute.scss",
 				"entity.other.attribute-name.scss"
 			],
@@ -339,12 +339,6 @@
 			}
 		},
 		{
-			"scope": "support.function.git-rebase",
-			"settings": {
-				"foreground": "#9cdcfe"
-			}
-		},
-		{
 			"scope": "constant.sha.git-rebase",
 			"settings": {
 				"foreground": "#b5cea8"
@@ -383,7 +377,10 @@
 		},
 		{
 			"name": "Function declarations",
-			"scope": "support.function",
+			"scope": [
+				"support.function",
+				"support.function.git-rebase"
+			],
 			"settings": {
 				"foreground": "#56b6c2"
 			}
@@ -469,11 +466,9 @@
 		{
 			"name": "CSS / SCSS / HTML CSS text",
 			"scope": [
-				"meta.property-value.css support.function",
 				"meta.property-value.css support",
 				"constant.other.color.rgb-value.css punctuation.definition",
-				
-				"meta.property-value.scss support.function",
+
 				"meta.property-value.scss support",
 				"constant.numeric.color.hex-value.scss punctuation.definition"
 			],
@@ -497,9 +492,11 @@
 		{
 			"name": "CSS / SCSS / HTML CSS RGB-HEX values",
 			"scope": [
+				"meta.property-value.css support.function",
 				"constant.other.color.hex-value.css",
 				"constant.other.color.rgb-value.css",
 
+				"meta.property-value.scss support.function",
 				"constant.numeric.color.hex-value.scss"
 			],
 			"settings": {
