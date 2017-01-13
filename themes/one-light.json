@@ -9,7 +9,13 @@
 				"lineHighlight": "#f2f2f2",
 				"selection": "#ededed",
 				"invisibles": "#d5d6d7",
-				"guide": "#D2D3D4"
+				"guide": "#d2d3d4",
+				"hoverHighlight": "#d2d3d4",
+				"findRangeHighlight": "#d6ddfe",
+				"findMatchHighlight": "#e5c07b",
+				"currentFindMatchHighlight": "#d6ddfe",
+				"activeLinkForeground": "#4078f2",
+				"gotoDefinitionLinkForeground": "#4078f2"
 			}
 		},
 		{
