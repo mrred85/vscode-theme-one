@@ -47,7 +47,8 @@
 		{
 			"scope": [
 				"constant.language",
-				"constant.other"
+				"constant.other",
+				"constant.core"
 			],
 			"settings": {
 				"foreground": "#d19a66"

@@ -1,10 +1,10 @@
 {
 	"name": "theme-one",
 	"displayName": "One Themes",
-	"description": "Themes for VSCode",
+	"description": "One Themes for VSCode",
 	"categories": [ "Themes" ],
 	"version": "1.0.0",
-	"publisher": "vscode",
+	"publisher": "Victor Rosu",
 	"engines": { "vscode": "*" },
 	"icon": "icon.svg",
 	"contributes": {
