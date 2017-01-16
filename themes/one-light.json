@@ -48,7 +48,8 @@
 			"scope": [
 				"constant.language",
 				"constant.other",
-				"constant.core"
+				"support.constant.core",
+				"support.constant.ext"
 			],
 			"settings": {
 				"foreground": "#986801"
