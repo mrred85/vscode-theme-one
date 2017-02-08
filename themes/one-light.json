@@ -253,7 +253,9 @@
 			"scope": [
 				"storage",
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"storage.modifier.import.java",
+				"storage.modifier.package.java"
 			],
 			"settings": {
 				"foreground": "#a626a4"
@@ -347,23 +349,6 @@
 			}
 		},
 		{
-			"name": "coloring of the Java import and package identifiers",
-			"scope": [
-				"storage.modifier.import.java",
-				"storage.modifier.package.java"
-			],
-			"settings": {
-				"foreground": "#a626a4"
-			}
-		},
-		{
-			"name": "coloring of the Java function",
-			"scope": "java.class.entity.name.function",
-			"settings": {
-				"foreground": "#4078f2"
-			}
-		},
-		{
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
@@ -372,7 +357,10 @@
 		},
 		{
 			"name": "Function declarations",
-			"scope": "entity.name.function",
+			"scope": [
+				"entity.name.function",
+				"java.class.entity.name.function"
+			],
 			"settings": {
 				"foreground": "#4078f2"
 			}
