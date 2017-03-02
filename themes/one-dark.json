@@ -71,7 +71,8 @@
 			"scope": [
 				"entity.name.tag",
 				"entity.name.tag.css",
-				"apacheconf.tag"
+				"entity.name.tag.scss",
+				"entity.tag.apacheconf"
 			],
 			"settings": {
 				"foreground": "#e06c75"
@@ -172,21 +173,19 @@
 		},
 		{
 			"scope": [
-				"markdown.punctuation.link.begin",
-				"markdown.punctuation.link.end"
+				// "punctuation.definition.metadata.markdown",
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown"
 			],
 			"settings": {
 				"foreground": "#abb2bf"
 			}
 		},
 		{
-			"scope": "markdown.link.string",
-			"settings": {
-				"foreground": "#61afef"
-			}
-		},
-		{
-			"scope": "markdown.link.detected-link",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown"
+			],
 			"settings": {
 				"foreground": "#c678dd"
 			}
@@ -208,13 +207,6 @@
 			"scope": "punctuation.definition.tag",
 			"settings": {
 				"foreground": "#abb2bf"
-			}
-		},
-		{
-			"name": "brackets of XML/HTML attributes quotes",
-			"scope": "punctuation.definition.tag.quoted",
-			"settings": {
-				"foreground": "#98c379"
 			}
 		},
 		{
