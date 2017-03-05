@@ -444,7 +444,8 @@
 			"name": "CSS / SCSS / HTML CSS text",
 			"scope": [
 				"meta.property-value.css support",
-				"constant.other.color.rgb-value.css punctuation.definition",
+				"constant.other.color.rgb-value.hex.css punctuation.definition",
+
 				"meta.property-value.scss support",
 				"constant.numeric.color.hex-value.scss punctuation.definition"
 			],
@@ -457,6 +458,7 @@
 			"scope": [
 				"support.type.property-name.css",
 				"support.type.property-name.html.css",
+
 				"support.type.property-name.scss"
 			],
 			"settings": {
@@ -468,7 +470,8 @@
 			"scope": [
 				"meta.property-value.css support.function",
 				"constant.other.color.hex-value.css",
-				"constant.other.color.rgb-value.css",
+				"constant.other.color.rgb-value.hex.css",
+
 				"meta.property-value.scss support.function",
 				"constant.numeric.color.hex-value.scss"
 			],
