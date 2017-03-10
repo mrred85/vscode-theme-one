@@ -48,7 +48,8 @@
 				"constant.language",
 				"constant.other",
 				"support.constant.core",
-				"support.constant.ext"
+				"support.constant.ext",
+				"support.constant.std"
 			],
 			"settings": {
 				"foreground": "#d19a66"
