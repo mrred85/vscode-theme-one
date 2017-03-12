@@ -229,12 +229,6 @@
 			}
 		},
 		{
-			"scope": "meta.structure.dictionary.key.python",
-			"settings": {
-				"foreground": "#9cdcfe"
-			}
-		},
-		{
 			"scope": "meta.diff.header",
 			"settings": {
 				"foreground": "#c678dd"
