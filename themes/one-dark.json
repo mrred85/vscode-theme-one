@@ -319,15 +319,6 @@
 			}
 		},
 		{
-			"scope": [
-				"punctuation.section.embedded.begin.metatag.php",
-				"punctuation.section.embedded.end.metatag.php"
-			],
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
 			"scope": "constant.sha.git-rebase",
 			"settings": {
 				"foreground": "#b5cea8"
@@ -472,6 +463,16 @@
 			],
 			"settings": {
 				"foreground": "#56b6c2"
+			}
+		},
+		{
+			"name": "PHP tag <?php",
+			"scope": [
+				"punctuation.section.embedded.begin.metatag.php",
+				"punctuation.section.embedded.end.metatag.php"
+			],
+			"settings": {
+				"foreground": "#e06c75"
 			}
 		}
 	]
