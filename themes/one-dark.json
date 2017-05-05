@@ -1,21 +1,55 @@
 {
+	"$schema": "vscode://schemas/color-theme",
 	"name": "One Dark",
-	"settings": [
+	"type": "dark",
+	"colors": {
+		"dropdown.background": "#2c323c",
+		"editor.background": "#282c34",
+		"editor.foreground": "#abb2bf",
+		"editor.selectionBackground": "#3e4451",
+		"editor.selectionHighlightBackground": "#414352",
+		"editor.lineHighlightBackground": "#2c323c",
+		"editor.lineHighlightBorder": "#2c323c",
+		"editor.findMatchBackground": "#d6e4fe",
+		"editor.findMatchHighlightBackground": "#986801",
+		"editor.findRangeHighlightBackground": "#d6e4fe",
+		"editorCursor.foreground": "#528bff",
+		"editorWhitespace.foreground": "#747369",
+		"editorIndentGuide.background": "#414352",
+		"editorLineNumber.foreground": "#4a5364",
+		"editorLink.activeForeground": "#61afef",
+		"editorGroupHeader.tabsBackground": "#20242a",
+		"editorGroupHeader.noTabsBackground": "#20242a",
+		"editorGroup.dropBackground": "#2c323c",
+		"editorGroup.border": "#1b1e24",
+		"tab.border": "#20242a",
+		"tab.activeBackground": "#282c34",
+		"tab.activeForeground": "#c5d2ec",
+		"tab.inactiveBackground": "#20242a",
+		"tab.inactiveForeground": "#6b707e",
+		"activityBar.background": "#20242a",
+		"activityBar.dropBackground": "#2c323c",
+		"activityBar.foreground": "#abb2bf", //6b707e
+		"activityBarBadge.background": "#3371f1",
+		"activityBarBadge.foreground": "#d6e4fe",
+
+		"sideBar.background": "#20242a",
+		"sideBarSectionHeader.background": "#3371f1",
+		"sideBarTitle.foreground": "#d6e4fe",
+		"button.background": "#3371f1",
+		"button.foreground": "#d6e4fe",
+		"button.hoverBackground": "#528bff",
+
+		"input.background": "#282c34",
+		"input.border": "#4a5364", //bebebe //2c323c
+		"input.foreground": "#c5d2ec",
+		"inputOption.activeBorder": "#61afef"
+	},
+	"tokenColors": [
 		{
 			"settings": {
 				"background": "#282c34",
-				"foreground": "#abb2bf",
-				"caret": "#528bff",
-				"lineHighlight": "#2c323c",
-				"selection": "#3e4451",
-				"invisibles": "#747369",
-				"guide": "#414352",
-				"hoverHighlight": "#414352",
-				"findRangeHighlight": "#d6e4fe",
-				"findMatchHighlight": "#986801",
-				"currentFindMatchHighlight": "#d6e4fe",
-				"activeLinkForeground": "#61afef",
-				"gotoDefinitionLinkForeground": "#61afef"
+				"foreground": "#abb2bf"
 			}
 		},
 		{
