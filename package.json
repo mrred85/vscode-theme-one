@@ -2,11 +2,38 @@
 	"name": "theme-one",
 	"displayName": "One Themes",
 	"description": "One Themes for VSCode",
-	"categories": [ "Themes" ],
-	"version": "1.1.0",
-	"publisher": "Victor Rosu",
-	"engines": { "vscode": "*" },
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"One Dark",
+		"One Light",
+		"Atom One Dark",
+		"Atom One Light",
+		"One Themes",
+		"Atom Themes"
+	],
+	"version": "1.1.2",
+	"author": {
+		"name": "Victor Rosu",
+		"url": "https://github.com/mrred85"
+	},
+	"publisher": "mrred85",
+	"maintainers": [
+		"Victor Rosu (mrred85)"
+	],
+	"engines": {
+		"vscode": "^1.12.1"
+	},
 	"icon": "icon.svg",
+	"homepage": "https://github.com/mrred85/vscode-theme-one",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mrred85/vscode-theme-one"
+	},
+	"bugs": {
+		"url": "https://github.com/mrred85/vscode-theme-one/issues"
+	},
 	"contributes": {
 		"themes": [
 			{
