@@ -107,7 +107,16 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": [
+				// "comment",
+				"comment.line",
+				"comment.documentation",
+				"comment.block",
+				"comment.block.preprocessor",
+				"comment.block.documentation",
+				"comment.block entity.name.type.instance.jsdoc",
+				"comment.block variable.other.jsdoc"
+			],
 			"settings": {
 				"foreground": "#5c6370",
 				"fontStyle": "italic"
