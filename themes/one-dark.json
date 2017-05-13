@@ -464,7 +464,7 @@
 		{
 			"name": "Types declaration and references",
 			"scope": [
-				"entity.other.class"
+				"entity.other.inherited-class"
 			],
 			"settings": {
 				"foreground": "#98c379"
