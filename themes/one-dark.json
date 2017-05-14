@@ -108,14 +108,12 @@
 		},
 		{
 			"scope": [
-				// "comment",
 				"comment.line",
-				"comment.documentation",
 				"comment.block",
 				"comment.block.preprocessor",
 				"comment.block.documentation",
-				"comment.block entity.name.type.instance.jsdoc",
-				"comment.block variable.other.jsdoc"
+				"comment.block.documentation entity.name.type.instance",
+				"comment.block.documentation variable.other"
 			],
 			"settings": {
 				"foreground": "#5c6370",
@@ -365,13 +363,13 @@
 			}
 		},
 		{
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#c678dd"
-			}
-		},
-		{
-			"scope": "keyword.control",
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"comment.line keyword.codetag.notation",
+				"comment.block.documentation keyword.other",
+				"comment.block.documentation storage.type.class"
+			],
 			"settings": {
 				"foreground": "#c678dd"
 			}
