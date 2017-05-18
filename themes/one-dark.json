@@ -45,7 +45,7 @@
 		"input.border": "#4a5364",
 		"input.foreground": "#c5d2ec",
 		"inputOption.activeBorder": "#61afef",
-		"widget.shadow": "#3e4451",
+		"widget.shadow": "#121212",
 		"editorWidget.background": "#20242a",
 		"editorSuggestWidget.background": "#20242a",
 		"editorSuggestWidget.border": "#6b707e",
