@@ -72,7 +72,7 @@
 		"pickerGroup.foreground": "#d19a66",
 		"statusBar.background": "#20242a",
 		"statusBar.noFolderBackground": "#20242a",
-		"statusBar.debuggingBackground": "#56b6c2",
+		"statusBar.debuggingBackground": "#20242a",
 		"statusBar.foreground": "#d6e4fe",
 		"statusBarItem.hoverBackground": "#3371f1",
 		"statusBarItem.activeBackground": "#d19a66",
