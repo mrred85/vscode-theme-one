@@ -98,6 +98,13 @@
 		"editorHoverWidget.background": "#20242a",
 		"editorHoverWidget.border": "#6e717f",
 
+		"peekView.border": "#6e717f",
+		"peekViewEditor.background": "#282c34",
+		"peekViewResult.background": "#20242a",
+		"peekViewTitle.background": "#414352",
+		"peekViewTitleDescription.foreground": "#6e717f",
+		"peekViewTitleLabel.foreground": "#d19a66",
+
 		"panel.background": "#282c34",
 		"panel.border": "#414352",
 		"panelTitle.activeBorder": "#3371f1",
