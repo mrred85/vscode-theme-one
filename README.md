@@ -7,6 +7,7 @@ Port of One Dark and One Light themes for VS Code.
 - Apache
 - PHP
 - Python
+- Ruby
 - Java
 - JavaScript
 - TypeScript
