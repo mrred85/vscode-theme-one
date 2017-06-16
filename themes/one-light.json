@@ -457,8 +457,7 @@
 		{
 			"name": "Function declarations",
 			"scope": [
-				"entity.name.function",
-				"java.class.entity.name.function"
+				"entity.name.function"
 			],
 			"settings": {
 				"foreground": "#4078f2"
