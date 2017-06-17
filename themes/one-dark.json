@@ -195,7 +195,7 @@
 			}
 		},
 		{
-			"name": "TAG elements",
+			"name": "HTML / XML Tags",
 			"scope": [
 				"entity.name.tag",
 				"entity.name.tag.css",
@@ -207,14 +207,9 @@
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"foreground": "#d19a66"
-			}
-		},
-		{
-			"name": "CSS / SCSS / HTML CSS attribute name",
+			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
+				"entity.other.attribute-name",
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
 				"entity.other.attribute-name.parent-selector.css",
@@ -288,25 +283,14 @@
 			}
 		},
 		{
-			"scope": "beginning.punctuation.definition.quote.markdown",
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
-			"scope": "beginning.punctuation.definition.list.markdown",
-			"settings": {
-				"foreground": "#e06c75"
-			}
-		},
-		{
 			"scope": [
-				// "punctuation.definition.metadata.markdown",
+				"beginning.punctuation.definition.quote.markdown",
+				"beginning.punctuation.definition.list.markdown",
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown"
 			],
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#e06c75"
 			}
 		},
 		{
@@ -331,7 +315,7 @@
 			}
 		},
 		{
-			"name": "brackets of XML/HTML tags",
+			"name": "HTML / XML Tags symbols",
 			"scope": "punctuation.definition.tag",
 			"settings": {
 				"foreground": "#abb2bf"
@@ -390,7 +374,7 @@
 			}
 		},
 		{
-			"name": "JavaScript string interpolation ${}",
+			"name": "JS / TS string interpolation ${}",
 			"scope": [
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end"
@@ -400,7 +384,7 @@
 			}
 		},
 		{
-			"name": "JavaScript string interpolation ${var}",
+			"name": "JS / TS string interpolation variable ${var}",
 			"scope": "meta.template.expression.variable",
 			"settings": {
 				"foreground": "#e06c75"
@@ -453,7 +437,6 @@
 			}
 		},
 		{
-			"name": "Function declarations",
 			"scope": [
 				"entity.name.function"
 			],
@@ -462,7 +445,6 @@
 			}
 		},
 		{
-			"name": "Function declarations",
 			"scope": [
 				"support.function",
 				"support.function.git-rebase"
@@ -475,6 +457,12 @@
 			"name": "Types declaration and references",
 			"scope": [
 				"meta.return-type",
+				"meta.return.type",
+				"meta.type.cast.expr",
+				"meta.type.new.expr",
+				"support.constant.math",
+				"support.constant.dom",
+				"support.constant.json",
 				"support.class",
 				"support.type",
 				"entity.name.type",
@@ -503,7 +491,6 @@
 			}
 		},
 		{
-			"name": "Types declaration and references",
 			"scope": [
 				"entity.other.inherited-class"
 			],
@@ -512,21 +499,6 @@
 			}
 		},
 		{
-			"name": "Types declaration and references, TS grammar specific",
-			"scope": [
-				"meta.return.type",
-				"meta.type.cast.expr",
-				"meta.type.new.expr",
-				"support.constant.math",
-				"support.constant.dom",
-				"support.constant.json"
-			],
-			"settings": {
-				"foreground": "#e5c07b"
-			}
-		},
-		{
-			"name": "Variable, parameter name, object keys, JS/TS grammar",
 			"scope": [
 				"variable",
 				"meta.definition.variable.name",
@@ -539,7 +511,7 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS text",
+			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"meta.property-value.css support",
 				"meta.property-value.scss support"
@@ -549,7 +521,7 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS punctuation",
+			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"support.type.vendored.property-name.css",
 				"support.type.property-name.css",
@@ -560,7 +532,7 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS RGB-HEX values",
+			"name": "CSS / SCSS / HTML CSS RGB and HEX",
 			"scope": [
 				"source.css constant.numeric",
 				"source.css support.function"
