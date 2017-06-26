@@ -547,7 +547,8 @@
 			"name": "PHP tag <?php",
 			"scope": [
 				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
+				"punctuation.section.embedded.end.php",
+				"meta.function-call.invoke.php punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#e06c75"
