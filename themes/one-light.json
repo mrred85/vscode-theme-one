@@ -506,7 +506,8 @@
 				"meta.definition.variable.name",
 				"support.variable",
 				"meta.object-literal.key",
-				"meta.object-literal.key entity.name.function"
+				"meta.object-literal.key entity.name.function",
+				"meta.function-call.invoke.php punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#e06c75"
@@ -547,8 +548,7 @@
 			"name": "PHP tag <?php",
 			"scope": [
 				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php",
-				"meta.function-call.invoke.php punctuation.definition.variable.php"
+				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
 				"foreground": "#e06c75"

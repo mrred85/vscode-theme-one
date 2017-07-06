@@ -74,4 +74,25 @@ To color the whole line set `todohighlight.highlightWholeLine` to `true`.
 ]
 ```
 
+### Git Lens plugin
+
+If you use *Git Lens* set below values in user settings, `settings.json` to integrate with this theme.
+
+```JSON
+"gitlens.theme.annotations.file.gutter.dark.backgroundColor": "rgba(54, 58, 79, 0.6)",
+"gitlens.theme.annotations.file.gutter.light.backgroundColor": "rgba(210, 211, 212, 0.6)",
+"gitlens.theme.annotations.file.gutter.dark.foregroundColor": "rgb(214, 228, 254)",
+"gitlens.theme.annotations.file.gutter.light.foregroundColor": "rgb(56, 58, 66)",
+"gitlens.theme.annotations.file.gutter.dark.uncommittedForegroundColor": "rgb(209, 154, 102)",
+"gitlens.theme.annotations.file.gutter.light.uncommittedForegroundColor": "rgb(209, 154, 102)",
+"gitlens.theme.annotations.line.trailing.dark.backgroundColor": "rgba(55, 114, 239, 0.4)",
+"gitlens.theme.annotations.line.trailing.light.backgroundColor": "rgba(55, 114, 239, 0.4)",
+"gitlens.theme.annotations.line.trailing.dark.foregroundColor": "rgb(201, 201, 201)",
+"gitlens.theme.annotations.line.trailing.light.foregroundColor": "rgb(56, 58, 66)",
+"gitlens.theme.lineHighlight.dark.backgroundColor": "rgba(97, 175, 239, 0.3)",
+"gitlens.theme.lineHighlight.light.backgroundColor": "rgba(64, 120, 242, 0.4)",
+"gitlens.theme.lineHighlight.dark.overviewRulerColor": "rgba(97, 175, 239, 0.3)",
+"gitlens.theme.lineHighlight.light.overviewRulerColor": "rgba(64, 120, 242, 0.4)"
+```
+
 Enjoy ;)
