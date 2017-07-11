@@ -126,6 +126,9 @@
 
 		"debugToolBar.background": "#eaeaeb",
 
+		"diffEditor.insertedTextBackground": "#90c37855",
+		"diffEditor.removedTextBackground": "#e06c7555",
+
 		"titleBar.activeBackground": "#eaeaeb",
 		"titleBar.activeForeground": "#424242",
 		"titleBar.inactiveBackground": "#eaeaeb",
