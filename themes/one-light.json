@@ -131,6 +131,9 @@
 		"diffEditor.insertedTextBackground": "#90c37855",
 		"diffEditor.removedTextBackground": "#e06c7555",
 
+		"terminalCursor.foreground": "#526fff",
+		"terminalCursor.background": "#fafafa",
+
 		"titleBar.activeBackground": "#eaeaeb",
 		"titleBar.activeForeground": "#424242",
 		"titleBar.inactiveBackground": "#eaeaeb",
