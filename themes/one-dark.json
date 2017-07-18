@@ -32,7 +32,7 @@
 
 		"list.focusBackground": "#3371f1",
 		"list.highlightForeground": "#d19a66",
-		"list.activeSelectionBackground": "#414352",
+		"list.activeSelectionBackground": "#363a4f",
 		"list.activeSelectionForeground": "#abb2bf",
 		"list.inactiveSelectionBackground": "#1b1e24",
 		"list.hoverBackground": "#2c323c",
@@ -45,6 +45,7 @@
 
 		"sideBar.background": "#20242a",
 		"sideBarSectionHeader.background": "#3371f1",
+		"sideBarSectionHeader.foreground": "#d6e4fe",
 		"sideBarTitle.foreground": "#d6e4fe",
 
 		"editor.background": "#282c34",
