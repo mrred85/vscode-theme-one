@@ -515,7 +515,6 @@
 				"meta.definition.variable.name",
 				"support.variable",
 				"meta.object-literal.key",
-				"meta.object-literal.key entity.name.function",
 				"meta.function-call.invoke.php punctuation.definition.variable.php"
 			],
 			"settings": {
@@ -536,8 +535,7 @@
 			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"support.type.vendored.property-name.css",
-				"support.type.property-name.css",
-				"source.css punctuation.separator"
+				"support.type.property-name.css"
 			],
 			"settings": {
 				"foreground": "#383a42"
@@ -547,7 +545,8 @@
 			"name": "CSS / SCSS / HTML CSS RGB and HEX",
 			"scope": [
 				"source.css constant.numeric",
-				"source.css support.function"
+				"source.css support.function",
+				"punctuation.separator"
 			],
 			"settings": {
 				"foreground": "#0184bc"
