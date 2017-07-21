@@ -530,10 +530,11 @@
 			}
 		},
 		{
-			"name": "CSS / SCSS / HTML CSS",
 			"scope": [
 				"support.type.vendored.property-name.css",
-				"support.type.property-name.css"
+				"support.type.property-name.css",
+				"source.php string.quoted.double.php punctuation.definition.variable.php",
+				"source.php string.unquoted.heredoc.php punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#abb2bf"
@@ -554,7 +555,9 @@
 			"name": "PHP tag <?php",
 			"scope": [
 				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
+				"punctuation.section.embedded.end.php",
+				"source.php string.quoted.double.php variable.other.php punctuation.definition.variable.php",
+				"source.php string.unquoted.heredoc.php variable.other.php punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#e06c75"
