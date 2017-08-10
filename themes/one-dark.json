@@ -135,10 +135,11 @@
 		"terminalCursor.foreground": "#528bff",
 		"terminalCursor.background": "#282c34",
 
-		"titleBar.activeBackground": "#20242a",
+		"titleBar.activeBackground": "#1a1d22",
 		"titleBar.activeForeground": "#d7d8e0",
-		"titleBar.inactiveBackground": "#20242a",
-		"titleBar.inactiveForeground": "#6e717f"
+		"titleBar.inactiveBackground": "#22262d",
+		"titleBar.inactiveForeground": "#6e717f",
+		"titleBar.border": "#141524"
 	},
 	"tokenColors": [
 		{
