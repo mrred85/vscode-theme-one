@@ -149,12 +149,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#fafafa",
-				"foreground": "#383a42"
-			}
-		},
-		{
 			"scope": "emphasis",
 			"settings": {
 				"fontStyle": "italic"
