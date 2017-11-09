@@ -135,6 +135,12 @@
 		"terminalCursor.foreground": "#526fff",
 		"terminalCursor.background": "#fafafa",
 
+		"gitDecoration.conflictingResourceForeground": "#e06c75",
+		"gitDecoration.deletedResourceForeground": "#424242",
+		"gitDecoration.ignoredResourceForeground": "#a0a1a7",
+		"gitDecoration.modifiedResourceForeground": "#526fff",
+		"gitDecoration.untrackedResourceForeground": "#50a14f",
+
 		"titleBar.activeBackground": "#dfdfdf",
 		"titleBar.activeForeground": "#424242",
 		"titleBar.inactiveBackground": "#f1f1f1",
