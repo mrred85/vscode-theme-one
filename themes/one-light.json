@@ -63,6 +63,7 @@
 		"editor.hoverHighlightBackground": "#dedede",
 
 		"editorLineNumber.foreground": "#bebebe",
+		"editorActiveLineNumber.foreground": "#424242",
 		"editorCursor.foreground": "#526fff",
 		"editorLink.activeForeground": "#4078f2",
 		"editorWhitespace.foreground": "#d5d6d7",
