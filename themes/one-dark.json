@@ -71,6 +71,7 @@
 		"editorRuler.foreground": "#414352",
 		"editorBracketMatch.background": "#3371f1",
 		"editorBracketMatch.border": "#3371f1",
+
 		"editorOverviewRuler.border": "#414352",
 
 		"editorError.foreground": "#A8292D",
@@ -122,8 +123,9 @@
 		"statusBarItem.hoverBackground": "#3371f1",
 		"statusBarItem.activeBackground": "#d19a66",
 
-		"notification.background": "#20242a",
-		"notification.foreground": "#d6e4fe",
+		"notifications.background": "#20242a",
+		"notifications.foreground": "#d6e4fe",
+		"notifications.border": "#4a5364",
 
 		"pickerGroup.border": "#61afef",
 		"pickerGroup.foreground": "#d19a66",
