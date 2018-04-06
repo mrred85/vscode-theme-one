@@ -63,7 +63,7 @@
 		"editor.hoverHighlightBackground": "#dedede",
 
 		"editorLineNumber.foreground": "#bebebe",
-		"editorActiveLineNumber.foreground": "#424242",
+		"editorLineNumber.activeForeground": "#424242",
 		"editorCursor.foreground": "#526fff",
 		"editorLink.activeForeground": "#4078f2",
 		"editorWhitespace.foreground": "#d5d6d7",
@@ -71,6 +71,7 @@
 		"editorRuler.foreground": "#d2d3d4",
 		"editorBracketMatch.background": "#d6ddfe",
 		"editorBracketMatch.border": "#d6ddfe",
+		"editorHint.foreground": "#424242",
 
 		"editorOverviewRuler.border": "#d2d3d4",
 
@@ -453,7 +454,8 @@
 		},
 		{
 			"scope": [
-				"entity.name.function"
+				"entity.name.function",
+				"punctuation.decorator"
 			],
 			"settings": {
 				"foreground": "#4078f2"
