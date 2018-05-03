@@ -72,6 +72,7 @@
 		"editorBracketMatch.background": "#d6ddfe",
 		"editorBracketMatch.border": "#d6ddfe",
 		"editorHint.foreground": "#424242",
+		"editorIndentGuide.activeBackground": "#696c77",
 
 		"editorOverviewRuler.border": "#d2d3d4",
 

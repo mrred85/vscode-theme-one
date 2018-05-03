@@ -61,7 +61,6 @@
 		"editor.wordHighlightBackground": "#3e4451",
 		"editor.wordHighlightStrongBackground": "#414352",
 		"editor.hoverHighlightBackground": "#3e4451",
-		"editorHint.foreground": "#d6e4fe",
 
 		"editorLineNumber.foreground": "#4a5364",
 		"editorLineNumber.activeForeground": "#d7d8e0",
@@ -72,6 +71,8 @@
 		"editorRuler.foreground": "#414352",
 		"editorBracketMatch.background": "#3371f1",
 		"editorBracketMatch.border": "#3371f1",
+		"editorHint.foreground": "#d6e4fe",
+		"editorIndentGuide.activeBackground": "#9399be",
 
 		"editorOverviewRuler.border": "#414352",
 
