@@ -150,13 +150,13 @@
 		"textLink.activeForeground": "#61afef",
 
 		"breadcrumbPicker.background": "#20242a",
+		"breadcrumb.background": "#282c34",
 		"breadcrumb.foreground": "#d6e4fe",
 		"breadcrumb.focusForeground": "#61afef",
 		"breadcrumb.activeSelectionForeground": "#d19a66",
 
 		"settings.headerForeground": "#61afef",
-		"settings.inactiveSelectedItemBorder": "#414352",
-		"settings.modifiedItemForeground": "#629755",
+		"settings.modifiedItemIndicator": "#629755",
 
 		"titleBar.activeBackground": "#1a1d22",
 		"titleBar.activeForeground": "#d7d8e0",
