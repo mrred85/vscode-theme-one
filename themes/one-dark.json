@@ -40,6 +40,7 @@
 		"activityBar.background": "#20242a",
 		"activityBar.dropBackground": "#2c323c",
 		"activityBar.foreground": "#d6e4fe",
+		"activityBar.inactiveForeground": "#abb2bf",
 		"activityBarBadge.background": "#3371f1",
 		"activityBarBadge.foreground": "#d6e4fe",
 
