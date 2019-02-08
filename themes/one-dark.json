@@ -37,6 +37,10 @@
 		"list.inactiveSelectionBackground": "#1b1e24",
 		"list.hoverBackground": "#2c323c",
 
+		"listFilterWidget.background": "#282c34",
+		"listFilterWidget.outline": "#4a5364",
+		"listFilterWidget.noMatchesOutline": "#A8292D",
+
 		"activityBar.background": "#20242a",
 		"activityBar.dropBackground": "#2c323c",
 		"activityBar.foreground": "#d6e4fe",
