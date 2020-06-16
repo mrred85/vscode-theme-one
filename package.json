@@ -13,17 +13,17 @@
 		"One Themes",
 		"Atom Themes"
 	],
-	"version": "1.9.0",
+	"version": "1.10.0",
 	"author": {
-		"name": "Victor Rosu",
+		"name": "Victor Roșu",
 		"url": "https://github.com/mrred85"
 	},
 	"publisher": "mrred85",
 	"maintainers": [
-		"Victor Rosu (mrred85)"
+		"Victor Roșu (mrred85)"
 	],
 	"engines": {
-		"vscode": "^1.31.0"
+		"vscode": "^1.42.0"
 	},
 	"icon": "icon.png",
 	"homepage": "https://github.com/mrred85/vscode-theme-one",
