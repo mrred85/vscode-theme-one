@@ -18,11 +18,9 @@ Port of One Dark and One Light themes for VS Code.
 - and so on
 
 ### How to install
-Download files and place in `~/.vscode/extensions` folder.
-Go to `Preferences > Color Theme` and select `One Dark` or `One Light` to load it.
+Download files and place in `~/.vscode/extensions` folder. Go to `Preferences > Color Theme` and select `One Dark` or `One Light` to load it.
 
 ### Indenticator plugin
-
 If you use *Indenticator* plugin set below values in user settings, `settings.json`, to set active gutters colors.
 
 ```JSON
@@ -31,7 +29,6 @@ If you use *Indenticator* plugin set below values in user settings, `settings.js
 ```
 
 ### TODO Highlight plugin
-
 If you use *TODO Highlight* set below values in user settings, `settings.json` to integrate `TODO:`, `@todo:` and `@TODO:` background colors with this theme.
 This setting remove case sensitive check for a better integration with existing code syntaxes.
 To color the whole line set `todohighlight.highlightWholeLine` to `true`.
@@ -63,25 +60,34 @@ To color the whole line set `todohighlight.highlightWholeLine` to `true`.
 ```
 
 ### Git Lens plugin
-
 If you use *Git Lens* set below values in user settings, `settings.json` to integrate with this theme.
+
+### One Dark
 
 ```JSON
 "gitlens.insiders": true,
-"gitlens.theme.annotations.file.gutter.dark.backgroundColor": "rgba(54, 58, 79, 0.6)",
-"gitlens.theme.annotations.file.gutter.light.backgroundColor": "rgba(210, 211, 212, 0.6)",
-"gitlens.theme.annotations.file.gutter.dark.foregroundColor": "rgb(214, 228, 254)",
-"gitlens.theme.annotations.file.gutter.light.foregroundColor": "rgb(56, 58, 66)",
-"gitlens.theme.annotations.file.gutter.dark.uncommittedForegroundColor": "rgb(209, 154, 102)",
-"gitlens.theme.annotations.file.gutter.light.uncommittedForegroundColor": "rgb(152, 104, 1)",
-"gitlens.theme.annotations.line.trailing.dark.backgroundColor": "",
-"gitlens.theme.annotations.line.trailing.light.backgroundColor": "",
-"gitlens.theme.annotations.line.trailing.dark.foregroundColor": "rgb(209, 154, 102)",
-"gitlens.theme.annotations.line.trailing.light.foregroundColor": "rgb(152, 104, 1)",
-"gitlens.theme.lineHighlight.dark.backgroundColor": "rgba(97, 175, 239, 0.3)",
-"gitlens.theme.lineHighlight.light.backgroundColor": "rgba(64, 120, 242, 0.4)",
-"gitlens.theme.lineHighlight.dark.overviewRulerColor": "rgba(97, 175, 239, 0.3)",
-"gitlens.theme.lineHighlight.light.overviewRulerColor": "rgba(64, 120, 242, 0.4)",
+"workbench.colorCustomizations": {
+    "gitlens.gutterBackgroundColor": "#363a4f99",
+    "gitlens.gutterForegroundColor": "#d6e4fe",
+    "gitlens.gutterUncommittedForegroundColor": "#d19a66",
+    "gitlens.lineHighlightBackgroundColor": "#61afef4d",
+    "gitlens.lineHighlightOverviewRulerColor": "#61afef4d",
+    "gitlens.trailingLineForegroundColor": "#d19a66"
+}
+```
+
+### One Light
+
+```JSON
+"gitlens.insiders": true,
+"workbench.colorCustomizations": {
+    "gitlens.gutterBackgroundColor": "#d2d3d499",
+    "gitlens.gutterForegroundColor": "#383a42",
+    "gitlens.gutterUncommittedForegroundColor": "#986801",
+    "gitlens.lineHighlightBackgroundColor": "#4078f266",
+    "gitlens.lineHighlightOverviewRulerColor": "#4078f266",
+    "gitlens.trailingLineForegroundColor": "#986801"
+}
 ```
 
 Enjoy ;)
